@@ -1,5 +1,5 @@
 <?php
-include("./settings/connection.php");
+include("../settings/connection.php");
 // Fetch interaction logs
 
 // Fetch past interactions from the database

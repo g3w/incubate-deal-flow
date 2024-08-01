@@ -1,5 +1,6 @@
 <?php
 require_once 'db_connection.php'; // Include your database connection file
+include("../settings/connection.php");
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $deal_id = $_POST['deal_id'];

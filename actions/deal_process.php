@@ -17,10 +17,10 @@ $stmt->bind_param("sssssi", $startup_name, $founder, $industry, $stage, $status,
 
 if ($stmt->execute()) {
     // Redirect to deal details page with success message
-    header("Location: ./deal_details.php?id=$deal_id&success=1");
+    header("Location: ../view/deal_details.php?id=$deal_id&success=1");
 } else {
     // Redirect to deal details page with error message
-    header("Location: ./deal_details.php?id=$deal_id&error=1");
+    header("Location: ../view/deal_details.php?id=$deal_id&error=1");
 }
 
 // Close the connection

@@ -13,10 +13,10 @@ $stmt->bind_param("iss", $deal_id, $interaction_date, $notes);
 
 if ($stmt->execute()) {
     // Redirect to interaction log page with success message
-    header("Location: ../interaction_log.php?success=1");
+    header("Location: ../view/interaction_log.php?success=1");
 } else {
     // Redirect to interaction log page with error message
-    header("Location: ../interaction_log.php?error=1");
+    header("Location: ../view/interaction_log.php?error=1");
 }
 
 // Close the connection

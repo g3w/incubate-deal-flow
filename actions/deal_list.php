@@ -18,7 +18,7 @@ if ($result->num_rows > 0) {
         echo "<td>" . htmlspecialchars($row["industry"]) . "</td>";
         echo "<td>" . htmlspecialchars($row["stage"]) . "</td>"; // Ensure column name matches
         echo "<td>" . htmlspecialchars($row["status"]) . "</td>";
-        echo "<td><a href='deal_details.php?id=" . $row["id"] . "'>View Details</a></td>";
+        echo "<td><a href='../view/deal_details.php?id=" . $row["id"] . "'>View Details</a></td>";
         echo "</tr>";
     }
 } else {

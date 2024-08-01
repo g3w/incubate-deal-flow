@@ -28,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Execute the statement
         if ($stmt->execute()) {
             // Redirect to a success page or display a success message
-            header("Location: ./deal_list.php");
+            header("Location: ../view/deal_list.php");
             exit();
         } else {
             echo "Error: " . $stmt->error;
