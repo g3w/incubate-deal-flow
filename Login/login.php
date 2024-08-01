@@ -14,7 +14,7 @@
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <div class="container">
         <div class="form-area">
-            <form action="./actions/login.php" name="form" method="POST" onsubmit="return login_validation()">
+            <form action="../actions/login.php" name="form" method="POST" onsubmit="return login_validation()">
                 <p id="result">result</p>
                 <h2>Login</h2>
                 <div class="type-box">
@@ -39,7 +39,7 @@
 
                 <div class="group">
                     <span><a href="#">Forget Password</a></span>
-                    <span><a href="../Login/signup.php">Sign Up</a></span>
+                    <span><a href="./Login/signup.php">Sign Up</a></span>
                 </div>
 
             </form>
