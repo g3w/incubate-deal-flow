@@ -176,7 +176,7 @@
         </div>
 
         <div class="form-container">
-            <form action="./actions/submit_deal.php" method="POST">
+            <form action="../actions/submit_deal.php" method="POST">
                 <div class="form-group">
                     <label for="deal-name">Deal Name</label>
                     <input type="text" id="deal-name" name="deal_name" required>
