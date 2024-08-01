@@ -14,7 +14,7 @@
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <div class="container">
         <div class="form-area">
-            <form action="../actions/login.php" name="form" method="POST" onsubmit="return login_validation()">
+            <form action="./actions/login.php" name="form" method="POST" onsubmit="return login_validation()">
                 <p id="result">result</p>
                 <h2>Login</h2>
                 <div class="type-box">
