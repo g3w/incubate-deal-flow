@@ -37,7 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if (password_verify($password, $row["password"])) {
             $_SESSION['user_id'] = $row['users_id'];
-            header("Location: ../incubate.php");
+            header("Location: ./incubate.php");
             exit();
         } else {
             echo "Incorrect password for organization. Please try again.";
